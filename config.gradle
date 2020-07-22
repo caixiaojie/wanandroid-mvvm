@@ -1,0 +1,90 @@
+ext{
+    Versions = [
+            compileSdk : 29,
+            buildTools : "29.0.3",
+            minSdk : 21,
+            targetSdk : 29,
+            versionCode : 1,
+            versionName : "1.0",
+
+            kotlin : "1.3.72",
+            coroutines : "1.3.0",
+            coroutines_android : "1.3.5",
+            androidxArch : "2.0.0",
+            mockito : "2.23.0",
+
+            appcompat : "1.1.0",
+            constraintLayout : "1.1.3",
+            retrofit : "2.7.1",
+            retrofit_converter_gson : "2.6.2",
+            okhttp_logging_interceptor : "4.0.0",
+            swipeRefreshLayout : "1.1.0-rc01",
+            material : "1.2.0-beta01",
+            circleImageview : "2.2.0",
+            leakcanary : "2.0-alpha-3",
+            baseRecyclerViewAdapterHelper : "2.9.50",
+            banner : "1.4.10",
+            glide : "4.11.0",
+            glide_compiler : "4.11.0",
+            cardView : "1.0.0",
+            verticalTabLayout : "1.2.5",
+            flowLayout : "1.1.2",
+            persistentCookieJar : "v1.0.1",
+            licensesDialog : "2.1.0",
+            material_dialogs : "3.3.0",
+            livedata_ktx : "2.2.0",
+            viewPager2 : "1.0.0",
+            koin : "2.0.1",
+            core_ktx : "1.3.0",
+            navigation : "2.2.2",
+            recyclerView : "1.1.0",
+            viewmodel_ktx : "2.2.0",
+            lifecycle_extension : "2.2.0"
+    ]
+    Deps = [
+            // androidx
+            appcompat : "androidx.appcompat:appcompat:${Versions.appcompat}",
+            constraintlayout : "androidx.constraintlayout:constraintlayout:${Versions.constraintLayout}",
+            swiperefreshlayout : "androidx.swiperefreshlayout:swiperefreshlayout:${Versions.swipeRefreshLayout}",
+            material : "com.google.android.material:material:${Versions.material}",
+            livedata_ktx : "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.livedata_ktx}",
+            viewPager2 : "androidx.viewpager2:viewpager2:${Versions.viewPager2}",
+            core_ktx : "androidx.core:core-ktx:${Versions.core_ktx}",
+            navigation_fragment_ktx : "androidx.navigation:navigation-fragment-ktx:${Versions.navigation}",
+            navigation_ui_ktx : "androidx.navigation:navigation-ui-ktx:${Versions.navigation}",
+            recyclerView : "androidx.recyclerview:recyclerview:${Versions.recyclerView}",
+            viewmodel_ktx : "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.viewmodel_ktx}",
+            lifecycle_extension : "androidx.lifecycle:lifecycle-extensions:${Versions.lifecycle_extension}",
+
+            // kotlin
+            kotlin_stdlib : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${Versions.kotlin}",
+            coroutines_android : "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutines_android}",
+
+            // network
+            retrofit : "com.squareup.retrofit2:retrofit:${Versions.retrofit}",
+            retrofit_converter_gson : "com.squareup.retrofit2:converter-gson:${Versions.retrofit_converter_gson}",
+            okhttp_logging_interceptor : "com.squareup.okhttp3:logging-interceptor:${Versions.okhttp_logging_interceptor}",
+            persistentCookieJar : "com.github.franmontiel:PersistentCookieJar:${Versions.persistentCookieJar}",
+
+            // third
+            circleimageview : "de.hdodenhof:circleimageview:${Versions.circleImageview}",
+            leakCanary : "com.squareup.leakcanary:leakcanary-android:${Versions.leakcanary}",
+            baseRecyclerViewAdapterHelper : "com.github.CymChad:BaseRecyclerViewAdapterHelper:${Versions.baseRecyclerViewAdapterHelper}",
+            banner : "com.youth.banner:banner:${Versions.banner}",
+            glide : "com.github.bumptech.glide:glide:${Versions.glide}",
+            glide_compiler : "com.github.bumptech.glide:compiler:${Versions.glide_compiler}",
+            cardView : "androidx.cardview:cardview:${Versions.cardView}",
+            verticalTabLayout : "q.rorbin:VerticalTabLayout:${Versions.verticalTabLayout}",
+            flowLayout : "com.hyman:flowlayout-lib:${Versions.flowLayout}",
+            licensesDialog : "de.psdev.licensesdialog:licensesdialog:${Versions.licensesDialog}",
+            material_dialogs_core : "com.afollestad.material-dialogs:core:${Versions.material_dialogs}",
+            material_dialogs_input : "com.afollestad.material-dialogs:input:${Versions.material_dialogs}",
+            koin_android : "org.koin:koin-android:${Versions.koin}",
+            koin_androidx_scope : "org.koin:koin-androidx-scope:${Versions.koin}",
+            koin_androidx_viewmodel : "org.koin:koin-androidx-viewmodel:${Versions.koin}"
+    ]
+}
+
+
+
+
